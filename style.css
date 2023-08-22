@@ -1,15 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   list-style: none;
 }
 a {
-  list-style: none;
+  text-decoration: none;
 }
 
 .header {
+  background-image: url(./images/header-background.png);
+}
+
+.hero {
+  background-image: url(./images/navig-background.png);
+}
+
+.trailer-sect {
+  background-image: url(./images/trailer-background.png);
+}
+
+.Navi-language-table {
+  background-image: url(./images/table-backround.png);
+}
+
+.footer {
+  background-image: url(./images/footer-backround.jpg);
 }
 
 .header-nav-list-item {
