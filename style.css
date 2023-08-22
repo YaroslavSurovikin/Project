@@ -32,7 +32,7 @@ a {
 .header {
   width: 1440px;
   height: 150px;
-  background-image: url("./images/header-background.png");
+  background-image: url("./images/header-backround.png");
 }
 
 .header-nav-list {
@@ -78,8 +78,8 @@ a {
 
 .footer {
   width: 1440px;
-  height: 220px;
-  background-image: url("./images/footer-backround.jpg");
+  height: 150px;
+  background-image: url("./images/header-backround.png");
 }
 
 .header-nav-list-item {
