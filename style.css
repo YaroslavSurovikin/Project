@@ -31,6 +31,7 @@ a {
 
 .header {
   width: 1440px;
+  height: 150px;
   background-image: url("./images/header-background.png");
 }
 
@@ -44,6 +45,7 @@ a {
 
 .hero {
   width: 1440px;
+  height: 740px;
   background-image: url("./images/navig-background.png");
 }
 
@@ -64,16 +66,19 @@ a {
 
 .trailer-sect {
   width: 1440px;
+  height: 740px;
   background-image: url("./images/trailer-background.png");
 }
 
 .Navi-language-table {
   width: 1440px;
+  height: 700px;
   background-image: url("./images/table-backround.png");
 }
 
 .footer {
   width: 1440px;
+  height: 220px;
   background-image: url("./images/footer-backround.jpg");
 }
 
