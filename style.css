@@ -30,23 +30,51 @@ a {
 }
 
 .header {
-  background-image: url(./images/header-background.png);
+  width: 1440px;
+  background-image: url("./images/header-background.png");
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.switcher {
 }
 
 .hero {
-  background-image: url(./images/navig-background.png);
+  width: 1440px;
+  background-image: url("./images/navig-background.png");
+}
+
+.intagram {
+  background-image: url("./images/instagram.png");
+  background-repeat: no-repeat;
+}
+
+.twitter {
+  background-image: url("./images/twitter.png");
+  background-repeat: no-repeat;
+}
+
+.youtube {
+  background-image: url("./images/youtube.png");
+  background-repeat: no-repeat;
 }
 
 .trailer-sect {
-  background-image: url(./images/trailer-background.png);
+  width: 1440px;
+  background-image: url("./images/trailer-background.png");
 }
 
 .Navi-language-table {
-  background-image: url(./images/table-backround.png);
+  width: 1440px;
+  background-image: url("./images/table-backround.png");
 }
 
 .footer {
-  background-image: url(./images/footer-backround.jpg);
+  width: 1440px;
+  background-image: url("./images/footer-backround.jpg");
 }
 
 .header-nav-list-item {
