@@ -29,15 +29,35 @@ a {
   text-decoration: none;
 }
 
+.cont-hero {
+}
+
 .header {
   width: 1440px;
   height: 150px;
+  margin: auto;
   background-image: url("./images/header-backround.png");
+}
+
+.header-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav-list {
   display: flex;
   justify-content: center;
+}
+
+.header-nav-list-item {
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+
+.header-button {
+  border-radius: 20px;
+  background-color: blue;
 }
 
 .switcher {
@@ -46,7 +66,28 @@ a {
 .hero {
   width: 1440px;
   height: 740px;
+  margin: auto;
   background-image: url("./images/navig-background.png");
+}
+
+.cont-hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+}
+
+.arrowhero {
+  background-image: url("./images/arrowhero.png");
+}
+
+.hero-second-title {
+}
+
+.official-social-networks {
+  display: flex;
+  justify-content: center;
 }
 
 .intagram {
@@ -57,6 +98,8 @@ a {
 .twitter {
   background-image: url("./images/twitter.png");
   background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
 }
 
 .youtube {
@@ -64,22 +107,75 @@ a {
   background-repeat: no-repeat;
 }
 
+.author-section {
+  margin: auto;
+}
+
+.author_s-thought {
+  display: flex;
+  justify-content: center;
+}
+
+.author-title {
+  display: flex;
+  justify-content: center;
+}
+
+.author-title-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.club-navi {
+  border-radius: 20px;
+  background-color: blue;
+}
+
 .trailer-sect {
   width: 1440px;
   height: 740px;
+  margin: auto;
+  padding-top: 330px;
+  display: flex;
+  justify-content: center;
   background-image: url("./images/trailer-background.png");
+}
+
+.cont-author {
+  display: flex;
+  justify-content: center;
 }
 
 .Navi-language-table {
   width: 1440px;
   height: 700px;
+  margin: auto;
   background-image: url("./images/table-backround.png");
+}
+
+.language-table {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
   width: 1440px;
   height: 150px;
+  margin: auto;
   background-image: url("./images/header-backround.png");
+}
+
+.cont-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-lines {
+  background-image: url("./images/footer-line.png");
+}
+
+.contact-tribute-item {
 }
 
 .header-nav-list-item {
