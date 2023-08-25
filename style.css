@@ -35,19 +35,32 @@ a {
 .header {
   width: 1440px;
   height: 150px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 3px solid black;
+  display: flex;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  padding-left: 207px;
+  padding-right: 48px;
+  max-width: 1440px;
   background-image: url("./images/header-backround.png");
 }
 
 .header-position {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  margin-left: 0;
 }
 
 .header-nav-list {
+  width: 325px;
+  margin-left: 168px;
   display: flex;
-  justify-content: center;
 }
 
 .header-nav-list-item {
@@ -56,6 +69,10 @@ a {
 }
 
 .header-button {
+  width: 65px;
+  font-family: "HeadlandOne";
+  font-size: 20px;
+  margin-left: auto;
   border-radius: 20px;
   background-color: blue;
 }
@@ -66,13 +83,27 @@ a {
 .hero {
   width: 1440px;
   height: 740px;
-  margin: auto;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url("./images/navig-background.png");
 }
 
-.cont-hero {
+.hero-header {
+  display: none;
+}
+
+.hero-position {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  max-width: 1030px;
+}
+
+.club-navi {
+  border-radius: 20px;
+  background-color: blue;
 }
 
 .hero-title {
@@ -93,22 +124,29 @@ a {
 .intagram {
   background-image: url("./images/instagram.png");
   background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
 }
 
 .twitter {
   background-image: url("./images/twitter.png");
   background-repeat: no-repeat;
-  width: 30px;
+  width: 34px;
   height: 30px;
 }
 
 .youtube {
   background-image: url("./images/youtube.png");
   background-repeat: no-repeat;
+  width: 50px;
+  height: 30px;
 }
 
 .author-section {
-  margin: auto;
+  margin-top: 75px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .author_s-thought {
@@ -118,11 +156,13 @@ a {
 
 .author-title {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .author-title-2 {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -134,11 +174,17 @@ a {
 .trailer-sect {
   width: 1440px;
   height: 740px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 330px;
   display: flex;
   justify-content: center;
   background-image: url("./images/trailer-background.png");
+}
+
+.tlailer-link-button {
+  border-radius: 20px;
+  background-color: blue;
 }
 
 .cont-author {
@@ -147,9 +193,11 @@ a {
 }
 
 .Navi-language-table {
-  width: 1440px;
+  width: 144opx;
   height: 700px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
   background-image: url("./images/table-backround.png");
 }
 
@@ -161,7 +209,8 @@ a {
 .footer {
   width: 1440px;
   height: 150px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url("./images/header-backround.png");
 }
 
