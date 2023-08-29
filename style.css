@@ -61,10 +61,10 @@ a {
   width: 325px;
   margin-left: 168px;
   display: flex;
+  justify-content: space-between;
 }
 
 .header-nav-list-item {
-  margin-bottom: 60px;
   margin-left: 40px;
 }
 
@@ -102,18 +102,39 @@ a {
 }
 
 .club-navi {
+  width: 360px;
+  height: 80px;
+  font-family: "HeadlandOne";
+  text-align: center;
+  margin-top: 42px;
+  padding: 10px 30px;
+  display: block;
   border-radius: 20px;
   background-color: blue;
+  font-size: 24px;
 }
 
 .hero-title {
+  padding-top: 180px;
+  width: 298px;
+  height: 96px;
+  font-family: "Inter";
 }
 
 .arrowhero {
+  width: 152px;
+  height: 40px;
+  display: block;
+  margin-top: 50px;
+  margin-left: 53px;
   background-image: url("./images/arrowhero.png");
 }
 
 .hero-second-title {
+  margin-top: 40px;
+  font-family: "Inter";
+  width: 376px;
+  height: 123px;
 }
 
 .official-social-networks {
@@ -131,7 +152,7 @@ a {
 .twitter {
   background-image: url("./images/twitter.png");
   background-repeat: no-repeat;
-  width: 34px;
+  width: 50px;
   height: 30px;
 }
 
@@ -164,6 +185,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
+}
+
+.Bird-with-arrows {
+  background-image: url("./images/bird-with-arrows.png");
+  width: 400px;
+  height: 120px;
+  margin-bottom: 10px;
+  margin-left: 290px;
 }
 
 .club-navi {
@@ -183,17 +213,27 @@ a {
 }
 
 .tlailer-link-button {
-  border-radius: 20px;
+  width: 260px;
+  font-size: 24px;
+  text-align: center;
+  font-family: "HeadlandOne";
+  border-radius: 35px 0;
   background-color: blue;
 }
 
 .cont-author {
-  display: flex;
-  justify-content: center;
+}
+
+.Bird-with-arrows-2 {
+  background-image: url("./images/bird-with-arrows-2.png");
+  width: 400px;
+  height: 120px;
+  margin-left: 290px;
+  margin-bottom: 10px;
 }
 
 .Navi-language-table {
-  width: 144opx;
+  width: 1440px;
   height: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -206,9 +246,18 @@ a {
   justify-content: center;
 }
 
+.Bird-with-arrows-3 {
+  background-image: url("./images/bird-with-arrows-3.png");
+  margin-left: 430px;
+  width: 400px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
 .footer {
   width: 1440px;
   height: 150px;
+  padding: 35px 204px;
   margin-left: auto;
   margin-right: auto;
   background-image: url("./images/header-backround.png");
@@ -220,6 +269,21 @@ a {
   align-items: center;
 }
 
+.contact-tribute {
+  width: 690px;
+  margin-left: 80px;
+}
+
+.contact-tribute-item + .contact-tribute-item {
+  margin-top: 16px;
+}
+
+.footer-lines {
+  width: 153px;
+  height: 0;
+  background-image: url("./images/footer-line.png");
+}
+
 .footer-lines {
   background-image: url("./images/footer-line.png");
 }
@@ -228,4 +292,8 @@ a {
 }
 
 .header-nav-list-item {
+}
+
+.copyrigth {
+  color: wheat;
 }
