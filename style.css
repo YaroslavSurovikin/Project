@@ -84,6 +84,7 @@ a {
   border: 2px solid #26c7ea;
   border-bottom-right-radius: 35px;
   border-top-left-radius: 35px;
+  color: #26c6ea;
 }
 
 .switcher-eng {
@@ -135,6 +136,7 @@ a {
   border-bottom-right-radius: 35px;
   border-top-left-radius: 35px;
   font-size: 24px;
+  color: #26c6ea;
 }
 
 .hero-title {
@@ -177,7 +179,7 @@ a {
   height: 30px;
 }
 
-.asdf {
+.o-s-n {
   padding-bottom: 25px;
   padding-right: 5px;
 }
@@ -236,11 +238,15 @@ a {
 
 .tlailer-link-button {
   width: 260px;
+  height: 80px;
   font-size: 24px;
-  padding: 25px 19px 25px 20px;
+  padding: 25px 18px;
   text-align: center;
+  display: block;
+  border: 2px solid #26c7ea;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
   font-family: "HeadlandOne";
-  border-radius: 45px 0;
   background-color: blue;
 }
 
@@ -262,8 +268,11 @@ a {
 .Navi-language-table {
   width: 1440px;
   height: 700px;
+  padding-top: 58px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "HeadlandOne";
+  font-size: 32px;
   max-width: 1440px;
   background-image: url("./images/table-backround.png");
 }
