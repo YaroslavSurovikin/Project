@@ -47,7 +47,12 @@ a {
   padding-left: 207px;
   padding-right: 48px;
   max-width: 1440px;
-  background-image: url("./images/header-backround.png");
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.8)
+    ),
+    url("./images/header-backround.png");
 }
 
 .header-position {
@@ -69,15 +74,27 @@ a {
 }
 
 .header-button {
-  width: 65px;
+  width: 140px;
+  height: 40px;
+  padding: 8px 38px;
+  display: block;
   font-family: "HeadlandOne";
   font-size: 20px;
-  margin-left: auto;
-  border-radius: 20px;
-  background-color: blue;
+  background-color: #0b0e66;
+  border: 2px solid #26c7ea;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
+}
+
+.switcher-eng {
+  color: wheat;
 }
 
 .switcher {
+}
+
+.switcher-ua {
+  color: wheat;
 }
 
 .hero {
@@ -85,6 +102,8 @@ a {
   height: 740px;
   background-size: cover;
   background-position: center;
+  padding-top: 180px;
+  padding-bottom: 180px;
   margin-left: auto;
   margin-right: auto;
   background-image: url("./images/navig-background.png");
@@ -94,11 +113,13 @@ a {
   display: none;
 }
 
+.hero-z {
+}
+
 .hero-position {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1030px;
 }
 
 .club-navi {
@@ -107,39 +128,39 @@ a {
   font-family: "HeadlandOne";
   text-align: center;
   margin-top: 42px;
-  padding: 10px 30px;
+  padding: 25px 75px;
   display: block;
-  border-radius: 20px;
   background-color: blue;
+  border: 2px solid #26c7ea;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
   font-size: 24px;
 }
 
 .hero-title {
-  padding-top: 180px;
   width: 298px;
   height: 96px;
   font-family: "Inter";
+  color: wheat;
 }
 
 .arrowhero {
   width: 152px;
   height: 40px;
-  display: block;
-  margin-top: 50px;
   margin-left: 53px;
   background-image: url("./images/arrowhero.png");
 }
 
 .hero-second-title {
-  margin-top: 40px;
   font-family: "Inter";
   width: 376px;
   height: 123px;
+  color: wheat;
 }
 
 .official-social-networks {
-  display: flex;
-  justify-content: center;
+  width: 50px;
+  height: 141px;
 }
 
 .intagram {
@@ -154,6 +175,11 @@ a {
   background-repeat: no-repeat;
   width: 50px;
   height: 30px;
+}
+
+.asdf {
+  padding-bottom: 25px;
+  padding-right: 5px;
 }
 
 .youtube {
@@ -173,6 +199,7 @@ a {
 .author_s-thought {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .author-title {
@@ -196,11 +223,6 @@ a {
   margin-left: 290px;
 }
 
-.club-navi {
-  border-radius: 20px;
-  background-color: blue;
-}
-
 .trailer-sect {
   width: 1440px;
   height: 740px;
@@ -215,10 +237,15 @@ a {
 .tlailer-link-button {
   width: 260px;
   font-size: 24px;
+  padding: 25px 19px 25px 20px;
   text-align: center;
   font-family: "HeadlandOne";
-  border-radius: 35px 0;
+  border-radius: 45px 0;
   background-color: blue;
+}
+
+.title {
+  text-align: center;
 }
 
 .cont-author {
@@ -248,7 +275,7 @@ a {
 
 .Bird-with-arrows-3 {
   background-image: url("./images/bird-with-arrows-3.png");
-  margin-left: 430px;
+  margin-left: 290px;
   width: 400px;
   height: 120px;
   margin-bottom: 10px;
@@ -260,7 +287,12 @@ a {
   padding: 35px 204px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("./images/header-backround.png");
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.8)
+    ),
+    url("./images/header-backround.png");
 }
 
 .cont-footer {
@@ -272,6 +304,7 @@ a {
 .contact-tribute {
   width: 690px;
   margin-left: 80px;
+  color: wheat;
 }
 
 .contact-tribute-item + .contact-tribute-item {
