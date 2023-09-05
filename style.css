@@ -40,7 +40,7 @@ a {
   max-width: 1440px;
   background-size: cover;
   background-position: center;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #ffffff;
   display: flex;
   padding-top: 39px;
   padding-bottom: 39px;
@@ -87,15 +87,33 @@ a {
   color: #26c6ea;
 }
 
-.switcher-eng {
-  color: wheat;
+.switcher {
+  display: flex;
+  align-items: center;
+  width: 107px;
+  font-size: 16px;
+  justify-content: space-between;
 }
 
-.switcher {
+.switcher-eng {
+  font-family: "Hammersmith One";
+  text-transform: uppercase;
+  color: white;
+}
+
+.switcher-img {
+  width: 36px;
+  background-image: url("./images/switcher.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
 }
 
 .switcher-ua {
-  color: wheat;
+  text-transform: uppercase;
+  font-family: "Hammersmith One";
+  color: white;
 }
 
 .hero {
@@ -124,26 +142,26 @@ a {
 }
 
 .club-navi {
-  width: 360px;
+  width: 260px;
   height: 80px;
   font-family: "HeadlandOne";
   text-align: center;
   margin-top: 42px;
   padding: 25px 75px;
   display: block;
-  background-color: blue;
+  background-color: #0b0e66;
   border: 2px solid #26c7ea;
   border-bottom-right-radius: 35px;
   border-top-left-radius: 35px;
   font-size: 24px;
-  color: #26c6ea;
+  color: #26c7ea;
 }
 
 .hero-title {
   width: 298px;
   height: 96px;
   font-family: "Inter";
-  color: wheat;
+  color: white;
 }
 
 .arrowhero {
@@ -157,7 +175,7 @@ a {
   font-family: "Inter";
   width: 376px;
   height: 123px;
-  color: wheat;
+  color: white;
 }
 
 .official-social-networks {
@@ -217,7 +235,7 @@ a {
   margin-top: 15px;
 }
 
-.Bird-with-arrows {
+.bird-with-arrows {
   background-image: url("./images/bird-with-arrows.png");
   width: 400px;
   height: 120px;
@@ -257,7 +275,7 @@ a {
 .cont-author {
 }
 
-.Bird-with-arrows-2 {
+.bird-with-arrows-2 {
   background-image: url("./images/bird-with-arrows-2.png");
   width: 400px;
   height: 120px;
@@ -282,7 +300,61 @@ a {
   justify-content: center;
 }
 
-.Bird-with-arrows-3 {
+.table-card {
+  width: 1300px;
+  height: 504px;
+  margin-left: 204px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 320px;
+  height: 200px;
+  margin-top: 45px;
+  margin-right: 36px;
+  margin-bottom: 24px;
+  background-color: #ffffff94;
+}
+
+.card-text-top {
+  padding-top: 36px;
+  text-align: center;
+}
+
+.card-text-bottom {
+  padding-bottom: 36px;
+  text-align: center;
+}
+
+.arrow-table-left {
+  width: 152px;
+  height: 40px;
+  margin-left: 84px;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url("./images/arrow-table-left.png");
+}
+
+.arrow-table-rigth {
+  width: 152px;
+  height: 40px;
+  margin-left: 84px;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url("./images/arrow-table-right.png");
+}
+
+.bird-with-arrows-table {
+  width: 152px;
+  height: 40px;
+  margin-left: 84px;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url("./images/bird-with-arrows-table.png");
+}
+
+.bird-with-arrows-3 {
   background-image: url("./images/bird-with-arrows-3.png");
   margin-left: 290px;
   width: 400px;
@@ -313,21 +385,22 @@ a {
 .contact-tribute {
   width: 690px;
   margin-left: 80px;
-  color: wheat;
+  color: white;
 }
 
 .contact-tribute-item + .contact-tribute-item {
   margin-top: 16px;
 }
-
-.footer-lines {
-  width: 153px;
-  height: 0;
-  background-image: url("./images/footer-line.png");
+.footer-lines-vector {
+  width: 269px;
+  height: 1px;
+  background-image: url("./images/footer-line-vector.png");
 }
 
-.footer-lines {
-  background-image: url("./images/footer-line.png");
+.footer-lines-vector-2 {
+  width: 194px;
+  height: 1px;
+  background-image: url("./images/footer-line-vector-2.png");
 }
 
 .contact-tribute-item {
@@ -337,5 +410,5 @@ a {
 }
 
 .copyrigth {
-  color: wheat;
+  color: white;
 }
